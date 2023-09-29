@@ -1,0 +1,38 @@
+.background {
+  background-color: lightgray;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 100px;
+}
+
+.whiteContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 390px;
+  width: 130px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+#red {
+  background-color: red;
+  border: solid darkred 10px;
+}
+
+#yellow {
+  background-color: yellow;
+  border: solid rgb(200, 150, 10) 10px;
+}
+
+#green {
+  background-color: lightgreen;
+  border: solid darkgreen 10px;
+}
